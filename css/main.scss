@@ -1,0 +1,33 @@
+@import 'font';
+$gray-bkg: #F4F4F4;
+
+ul {
+	list-style: none;
+	li {
+		color: $secondary-black;
+		line-height: 22px;
+	}
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	h2 {
+		text-align: center;
+	}
+
+
+}
+
+section:nth-child(even) {
+	background-color: $gray-bkg;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.intro-paragraph {
+	float: none;
+	margin-right: auto;
+	margin-left: auto !important;
+}

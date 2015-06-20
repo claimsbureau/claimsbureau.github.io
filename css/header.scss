@@ -1,0 +1,84 @@
+@import 'font';
+$gray-bkg: #F4F4F4;
+
+header {
+	width: 100%;
+	background: #FFFFFF;
+	position: relative;
+
+	.utility-nav {
+		background: $gray-bkg;
+		padding: 5px 0 5px 0;
+		a {
+			float: right;
+			color: $secondary-black;
+		}
+	}
+
+	.logo {
+		width: 120px;
+		height: 120px;	
+		position: absolute;
+		top: -10px;		
+		z-index: 10;
+	}
+
+	nav {
+		float: right;
+		padding: 37px 0;
+		ul {
+			list-style: none;
+			li {
+				float: left;
+				margin: 0 100px 0 0; 
+				a {
+					color: $secondary-black;
+					font-weight: 700;
+					text-transform: uppercase;
+					text-decoration: none;
+				}
+
+				.claims-trac-link {
+					color: $primary-color;
+				}
+			}
+			li:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.page-header {
+	width: 100%;
+	background-color: $primary-color;
+	background-image: url(../images/nationwide.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+
+	h1 {
+		margin: 0;
+		padding: 28px 0;	
+	}
+
+	.left-fade {
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-image: linear-gradient(269deg, rgba(0,80,161,0.10) 0%, rgba(0,80,161,0.50) 18%, #0050A1 100%);
+	}
+
+	.right-fade {
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		background-image: linear-gradient(-269deg, rgba(0,80,161,0.10) 0%, rgba(0,80,161,0.50) 18%, #0050A1 100%);
+	}
+
+}

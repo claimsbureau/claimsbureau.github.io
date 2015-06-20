@@ -1,0 +1,35 @@
+$font-stack: Montserrat, Arial, sans-serif;
+
+$primary-black: rgba(0,0,0,.87);
+$secondary-black: rgba(0,0,0,.57);
+$primary-color: #0050A1;
+$secondary-color: #37B24A;
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+	font-family: $font-stack;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 37px;
+	font-weight: 400;
+}
+
+h2 {
+	color: $primary-black;
+	font-size: 28px;
+	font-weight: 400; 
+}
+
+p {
+	color: $secondary-black;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+a {
+	color: $primary-color;
+	font-size: 12px;
+	font-weight: 700;
+} 
