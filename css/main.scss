@@ -15,6 +15,42 @@ ul {
 	}
 }
 
+form {
+	input[type="submit"].button-primary {
+		padding: 25px 30px;
+		font-size: 16px;
+		color: #FFFFFF;
+		font-weight: 400;
+		background-color: $secondary-color;
+		margin-left: 20px;
+		line-height: 0;
+		text-transform: none;
+		font-family: $font-stack;
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		height: inherit;
+	}
+
+	input[type="submit"].button-primary:hover {
+		background-color: $secondary-color;
+		text-decoration: underline; 
+	} 
+}
+
+article {
+	padding-top: 50px;
+	padding-bottom: 50px;	
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}	
+}
+
 section {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -54,6 +90,15 @@ section:nth-child(even) {
 	background-color: $gray-bkg;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
+}
+
+.section-nav {
+	list-style: none;
+	
+	a {
+		text-decoration: none;	
+		font-size: 16px;
+	}
 }
 
 .card {
@@ -119,6 +164,11 @@ section:nth-child(even) {
 		font-weight: 400;
 		background-color: $secondary-color;
 		margin-left: 20px;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
 	}
 }
 
@@ -152,10 +202,13 @@ section:nth-child(even) {
 			text-align: left;	
 			max-width: none;
 			font-size: 37px;
+			text-shadow: 0px 0px 16px rgba(0,0,0,0.80);
 		}
 		
 	}
 }
+
+
 
 
 
