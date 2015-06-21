@@ -6,6 +6,8 @@
 
 @import 'layout'; // responsive grid and media queries
 
+@import 'font';
+
 /* -------------------------------- 
 
 Primary style
@@ -191,6 +193,16 @@ Slider
 	@include MQ(L) {
 		height: $intro-height-L;
 	}
+
+	a {
+		padding: 15px 20px;
+		font-size: 16px;
+		color: #FFFFFF;
+		font-weight: 400;
+		background-color: $secondary-color;
+		margin: 40px 0 0 0;
+		text-decoration: none;
+	}
 }
 
 /* -------------------------------- 
@@ -311,12 +323,12 @@ Single slide style
 		display: inline-block;
 		padding: 1.2em 1.4em;
 		margin-top: .8em;
-		background-color: rgba($color-2, .9);
-		font-size: 1.3rem;
-		font-weight: 700;
+		background-color: $secondary-color;
+		font-size: 16px;
+		font-weight: 400;
 		letter-spacing: 1px;
-		color: $color-3;
-		text-transform: uppercase;
+		color: #ffffff;
+		font-family: $font-stack;
 		box-shadow: 0 3px 6px rgba(#000, .1);
 		@include transition(background-color .2s);
 
@@ -328,13 +340,11 @@ Single slide style
 			margin-left: 1em;
 		}
 
-		.no-touch &:hover {
-			background-color: $color-2;
-		}
+	}
 
-		.no-touch &.secondary:hover {
-			background-color: darken($color-1, 10%);
-		}
+	.cd-btn:hover {
+		background-color: $secondary-color;
+		text-decoration: underline;
 	}
 
 	@include MQ(M) {

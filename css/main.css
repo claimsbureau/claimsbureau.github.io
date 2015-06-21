@@ -70,7 +70,7 @@ header {
     header nav ul {
       list-style: none; }
       header nav ul li {
-        margin: 0 100px 0 0; }
+        margin: 0 90px 0 0; }
         @media (max-width: 1024px) {
           header nav ul li {
             float: none; } }
@@ -125,6 +125,9 @@ header {
 .contact-header {
   background-image: url(../images/puzzle.jpg); }
 
+.cases-header {
+  background-image: url(../images/puzzle.jpg); }
+
 footer {
   padding: 50px 0; }
   footer p {
@@ -176,6 +179,10 @@ section {
   section h2 {
     text-align: center;
     margin-bottom: 50px; }
+  section p {
+    margin-bottom: 20px; }
+  section p:last-child {
+    margin-bottom: 0; }
   section .container {
     /* max-width: 780px; */
     margin: 0 auto; }

@@ -64,6 +64,15 @@ section {
 
 	}
 
+	p {
+				margin-bottom: 20px;
+			}
+
+			p:last-child {
+				margin-bottom: 0;
+			}
+
+
 	.container {
 		/* max-width: 780px; */
 		margin: 0 auto;

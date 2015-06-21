@@ -1,3 +1,47 @@
+h1, h2, h3, h4, h5, h6, p, a, li, label {
+  font-family: Montserrat, Arial, sans-serif; }
+
+h1 {
+  color: #FFFFFF;
+  font-size: 37px;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+h2 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 28px;
+  font-weight: 400; }
+
+h3 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 21px;
+  font-weight: 400; }
+
+h5 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+p {
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0; }
+
+a {
+  color: #0050A1;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer; }
+
+label {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  font-weight: 400; }
+
 /* -------------------------------- 
 
 Primary style
@@ -171,6 +215,14 @@ Slider
   @media only screen and (min-width: 1170px) {
     .cd-hero-slider {
       height: 560px; } }
+  .cd-hero-slider a {
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    background-color: #37B24A;
+    margin: 40px 0 0 0;
+    text-decoration: none; }
 
 /* -------------------------------- 
 
@@ -276,12 +328,12 @@ Single slide style
     display: inline-block;
     padding: 1.2em 1.4em;
     margin-top: .8em;
-    background-color: rgba(212, 68, 87, 0.9);
-    font-size: 1.3rem;
-    font-weight: 700;
+    background-color: #37B24A;
+    font-size: 16px;
+    font-weight: 400;
     letter-spacing: 1px;
     color: #ffffff;
-    text-transform: uppercase;
+    font-family: Montserrat, Arial, sans-serif;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
@@ -290,10 +342,9 @@ Single slide style
       background-color: rgba(22, 26, 30, 0.8); }
     .cd-hero-slider .cd-btn:nth-of-type(2) {
       margin-left: 1em; }
-    .no-touch .cd-hero-slider .cd-btn:hover {
-      background-color: #d44457; }
-    .no-touch .cd-hero-slider .cd-btn.secondary:hover {
-      background-color: #161a1e; }
+  .cd-hero-slider .cd-btn:hover {
+    background-color: #37B24A;
+    text-decoration: underline; }
   @media only screen and (min-width: 768px) {
     .cd-hero-slider {
       		/*
