@@ -21,8 +21,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="css/header.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,7 +38,7 @@
     <div class="utility-nav">
       <div class="container">
         <div class="row">
-          <a>Login to ClaimsTrac</a>  
+          <a><img src="images/lock-icon.png">Login to ClaimsTrac</a>  
         </div>
       </div>  
     </div>
@@ -45,10 +47,10 @@
       <img class="logo" src="images/logo.png">
       <nav>
         <ul>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Conact Us</a></li>
-          <li><a class="claims-trac-link" href="#">Order Investigation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Conact Us</a></li>
+          <li><a class="claims-trac-link" href="https://cb.poloniouslive.com/claimsbureauusa/CreateCaseForCB.do" target="_blank">Order Investigation<img src="images/green-arrow.png"></a></li>
         </ul>
         <div style="clear:both"></div>
       </nav>    
@@ -57,46 +59,84 @@
   </header>
 
   <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="page-header"> 
-  <div class="left-fade"></div>
-      <div class="container">
-        <div class="row">
-          <h1>Services</h1> 
-        </div>
-      </div> 
-      <div class="right-fade"></div> 
-  </div>
+  ––––––––––––––––––––––––––––––––––––––––––––––––––   -->
 
-  <div class="container">
+  <div class="cd-hero">
+  
+    <ul class="cd-hero-slider autoplay">
+      <li class="selected">
+        <div class="cd-full-width">
+          <div class="container">
+            <div class="row">
+              <h2>Your Investigative Partner.</h2>  
+              <h2>Offering Customized Solutions.</h2>  
+            </div>
+          </div>
+        </div> <!-- .cd-full-width -->
+      </li>
+
+      <li>
+        <div class="cd-full-width">
+          <div class="container">
+            <div class="row">
+              <h2>Nationwide Coverage.</h2>  
+              <h2>Small Company Feel.</h2>  
+            </div>
+          </div>
+        </div> <!-- .cd-full-width -->
+      </li>
+    </ul> <!-- .cd-hero-slider -->
+   
+  </div> <!-- .cd-hero -->
+  <section style="background-color:#F4F4F4; padding-bottom: 0;">
+    <div class="container" >
     <div class="row">
-      <section class="ten columns intro-paragraph">
-        <p>We provide insurers professional, cost effective and timely investigation which assists them in making informed claims decisions. Our thorough and targeted investigation provides insight into the claimant's activities, and often uncovers information which contributes to successful claims resolution.</p>
-      </section>
-    </div>
-  </div>
-  <section>
-    <h2>Life and Health Investigative Services</h2>
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <ul>
-            <li>»  Activities Checks</li>
-            <li>»  Activities Checks</li>
-          </ul>
+      <div class="one-half column card">
+        <img src="images/nationwide-circle.jpg">
+        <div class="right">
+          <h5>NATIONWIDE INVESTIGATIVE SERVICES</h5>
+          <p>We provide insurers professional, cost effective and timely investigations, which assist in making informed claims decisions.</p>
+          <a>View Our Services <img src="images/green-arrow.png"></a>
         </div>
-        <div class="one-half column">
-          <ul>
-            <li>»  Hospital Canvass</li>
-            <li>»  Hospital Canvass</li>
-          </ul>
+        <div style="clear:both"></div>
+      </div>
+      <div class="one-half column card">
+        <img src="images/about-circle.jpg">
+        <div class="right">
+          <h5>INDUSTRY LEADING EXPERIENCE</h5>
+          <p>Since 1956 our dedicated staff of experienced professionals conduct every investigation expeditiously, diligently, and with integrity.</p>
+          <a>Meet Our Staff <img src="images/green-arrow.png"></a>
         </div>
+        <div style="clear:both"></div>
       </div>
     </div>
-
+  </div>  
   </section>
+  
+  
+
+<!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="callout"> 
+  <div class="container">
+    <div class="row">
+      <h3>Established in 1956.  Over 50 years of proven industry experience.</h3><a>Download Brochure</a>  
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <p>© 2014 Claims Bureau USA</p><p>P.O. Box 2936 Woburn, MA 01888</p><a>Private Detective</a><a>License Disclosure Information</a> 
+      </div>
+    </div> 
+  </footer>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
