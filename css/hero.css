@@ -173,6 +173,19 @@ Slider
   padding-bottom: 0;
   border: none !important;
   position: relative; }
+  .cd-hero .hero-nav {
+    width: 100%;
+    padding: 0 10%;
+    position: absolute;
+    top: 250px;
+    z-index: 100; }
+    .cd-hero .hero-nav img {
+      width: 20px;
+      cursor: pointer; }
+    .cd-hero .hero-nav .previous-arrow {
+      float: left; }
+    .cd-hero .hero-nav .next-arrow {
+      float: right; }
 
 .cd-hero-slider {
   position: relative;
