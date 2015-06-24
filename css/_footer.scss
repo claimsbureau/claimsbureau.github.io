@@ -1,6 +1,7 @@
 footer {
 
 	padding: 50px 0;
+	position: relative;
 
 	p {
 		font-size: 12px;
@@ -11,5 +12,13 @@ footer {
 	a, p {
 		margin-right: 20px;
 		font-weight: 400;
+	}
+
+	img {
+		width: 50px;
+		float: right;
+		position: absolute;
+		bottom: -10px;
+		right: 0;
 	}
 }

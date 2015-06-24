@@ -17,6 +17,11 @@ h3 {
   font-size: 21px;
   font-weight: 400; }
 
+h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  font-weight: 600; }
+
 h5 {
   color: rgba(0, 0, 0, 0.87);
   font-size: 12px;
@@ -30,6 +35,8 @@ p {
   font-weight: 400;
   line-height: 22px;
   margin: 0; }
+  p a {
+    font-size: 16px; }
 
 a {
   color: #0050A1;
@@ -41,6 +48,12 @@ label {
   color: rgba(0, 0, 0, 0.87);
   font-size: 16px;
   font-weight: 400; }
+
+.address {
+  margin-bottom: 20px;
+  padding-left: 20px; }
+  .address p {
+    margin-bottom: 0; }
 
 header {
   width: 100%;
@@ -70,7 +83,7 @@ header {
     header nav ul {
       list-style: none; }
       header nav ul li {
-        margin: 0 90px 0 0; }
+        margin: 0 80px 0 0; }
         @media (max-width: 1024px) {
           header nav ul li {
             float: none; } }
@@ -83,11 +96,14 @@ header {
           text-transform: uppercase;
           text-decoration: none; }
         header nav ul li .claims-trac-link {
-          color: #0050A1; }
-          header nav ul li .claims-trac-link img {
-            width: 6px;
-            display: inline-block;
-            margin-left: 10px; }
+          padding: 15px 20px;
+          font-size: 12px;
+          color: #FFFFFF;
+          font-weight: 600;
+          background-color: #37B24A;
+          text-decoration: none; }
+        header nav ul li .claims-trac-link:hover {
+          text-decoration: underline; }
       header nav ul li:last-child {
         margin-right: 0; }
 
@@ -120,7 +136,7 @@ header {
   background-image: url(../images/nationwide.jpg); }
 
 .about-header {
-  background-image: url(../images/our-team.jpg); }
+  background-image: url(../images/boston.jpg); }
 
 .contact-header {
   background-image: url(../images/puzzle.jpg); }
@@ -128,8 +144,15 @@ header {
 .cases-header {
   background-image: url(../images/table.jpg); }
 
+.team-header {
+  background-image: url(../images/our-team.jpg); }
+
+.unlike-header {
+  background-image: url(../images/unlike.jpg); }
+
 footer {
-  padding: 50px 0; }
+  padding: 50px 0;
+  position: relative; }
   footer p {
     font-size: 12px;
     margin: 0;
@@ -137,6 +160,12 @@ footer {
   footer a, footer p {
     margin-right: 20px;
     font-weight: 400; }
+  footer img {
+    width: 50px;
+    float: right;
+    position: absolute;
+    bottom: -10px;
+    right: 0; }
 
 body {
   background-color: #FFFFFF; }
@@ -146,6 +175,10 @@ ul {
   ul li {
     color: rgba(0, 0, 0, 0.57);
     line-height: 18px; }
+
+.styled-list {
+  list-style: disc;
+  padding-left: 40px; }
 
 form input[type="submit"].button-primary {
   padding: 25px 30px;
@@ -253,6 +286,12 @@ section:nth-child(even) {
     text-decoration: none; }
   .callout a:hover {
     text-decoration: underline; }
+  .callout .center {
+    padding: 20px 0;
+    text-align: center; }
+    .callout .center h3 {
+      position: static;
+      float: none; }
 
 .cd-hero {
   position: relative; }

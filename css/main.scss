@@ -15,6 +15,11 @@ ul {
 	}
 }
 
+.styled-list {
+	list-style: disc;
+	padding-left: 40px;	
+}
+
 form {
 	input[type="submit"].button-primary {
 		padding: 25px 30px;
@@ -178,6 +183,17 @@ section:nth-child(even) {
 
 	a:hover {
 		text-decoration: underline;
+	}
+
+	.center {
+		padding: 20px 0;
+		text-align: center;
+		h3 {
+			
+			position: static;
+			float: none;
+		}
+
 	}
 }
 

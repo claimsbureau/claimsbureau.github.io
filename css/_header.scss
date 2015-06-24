@@ -44,7 +44,7 @@ header {
 					float: left;
 				}
 				
-				margin: 0 90px 0 0; 
+				margin: 0 80px 0 0; 
 				a {
 					color: $secondary-black;
 					font-weight: 700;
@@ -53,27 +53,27 @@ header {
 				}
 
 				.claims-trac-link {
-					color: $primary-color;
-
-					img {
-						width: 6px;
-						display: inline-block;
-						margin-left: 10px;
-					}
+					padding: 15px 20px;
+					font-size: 12px;
+					color: #FFFFFF;
+					font-weight: 600;
+					background-color: $secondary-color;
+					text-decoration: none;
 				}
+				.claims-trac-link:hover {
+					text-decoration: underline;
+				}
+
 			}
-
-
-
-
 			li:last-child {
 				margin-right: 0;
 			}
 		}
 	}
+}
 
 	
-}
+
 
 
 .page-header {
@@ -114,7 +114,7 @@ header {
 }
 
 .about-header {
-	background-image: url(../images/our-team.jpg);	
+	background-image: url(../images/boston.jpg);	
 }
 
 .contact-header {
@@ -125,4 +125,11 @@ header {
 	background-image: url(../images/table.jpg);	
 }
 
+.team-header {
+	background-image: url(../images/our-team.jpg);	
+}
+
+.unlike-header {
+	background-image: url(../images/unlike.jpg);	
+}
 

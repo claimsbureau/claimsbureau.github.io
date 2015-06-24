@@ -17,6 +17,11 @@ h3 {
   font-size: 21px;
   font-weight: 400; }
 
+h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  font-weight: 600; }
+
 h5 {
   color: rgba(0, 0, 0, 0.87);
   font-size: 12px;
@@ -30,6 +35,8 @@ p {
   font-weight: 400;
   line-height: 22px;
   margin: 0; }
+  p a {
+    font-size: 16px; }
 
 a {
   color: #0050A1;
@@ -41,6 +48,12 @@ label {
   color: rgba(0, 0, 0, 0.87);
   font-size: 16px;
   font-weight: 400; }
+
+.address {
+  margin-bottom: 20px;
+  padding-left: 20px; }
+  .address p {
+    margin-bottom: 0; }
 
 /* -------------------------------- 
 
