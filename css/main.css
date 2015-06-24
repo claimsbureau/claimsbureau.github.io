@@ -64,7 +64,8 @@ header {
     padding: 5px 0 5px 0; }
     header .utility-nav a {
       float: right;
-      color: rgba(0, 0, 0, 0.57); }
+      color: rgba(0, 0, 0, 0.57);
+      text-decoration: none; }
       header .utility-nav a img {
         width: 10px;
         display: inline-block;
@@ -150,6 +151,9 @@ header {
 .unlike-header {
   background-image: url(../images/unlike.jpg); }
 
+.careers-header {
+  background-image: url(../images/resume.jpg); }
+
 footer {
   padding: 50px 0;
   position: relative; }
@@ -159,7 +163,10 @@ footer {
     display: inline-block; }
   footer a, footer p {
     margin-right: 20px;
-    font-weight: 400; }
+    font-weight: 600;
+    text-decoration: none; }
+  footer a:hover {
+    text-decoration: underline; }
   footer img {
     width: 50px;
     float: right;

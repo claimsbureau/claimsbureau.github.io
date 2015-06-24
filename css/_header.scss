@@ -11,6 +11,7 @@ header {
 		a {
 			float: right;
 			color: $secondary-black;
+			text-decoration: none;
 		
 			img {
 				width: 10px;
@@ -131,5 +132,9 @@ header {
 
 .unlike-header {
 	background-image: url(../images/unlike.jpg);	
+}
+
+.careers-header {
+	background-image: url(../images/resume.jpg);	
 }
 
