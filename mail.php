@@ -4,10 +4,10 @@
 	$message = $_POST['message'];
 	$company = $_POST['company'];
 	$phone = $_POST['phone'];
-	$formcontent="From: $name \n Email: $email \n Company: $company \n Phone: $phone \n  Message: $message";
-	$recipient = "contactus@claimsbureau.com";
+	$formcontent="From: $name \nEmail: $email \nCompany: $company \nPhone: $phone \nMessage: $message";
+	$recipient = "itadmin@claimsbureau.com";
 	$subject = "Contact Form Message";
-	$mailheader = "From: no-reply@claimsbureau.com \r\n";
+	$mailheader = "From: no-reply@arvixe.com\r\n";
 	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 	echo "Thank You!  Message sent.";
 ?>
