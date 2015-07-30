@@ -267,6 +267,11 @@ Single slide style
 	 	background-image: url('../images/hero-5.jpg');
 	}
 
+	li:nth-of-type(6) {
+	 	background-color: $color-1;
+	 	background-image: url('../images/hero-6.jpg');
+	}
+
 
 	.cd-full-width, 
 	.cd-half-width {

@@ -154,6 +154,9 @@ header {
 .careers-header {
   background-image: url(../images/resume.jpg); }
 
+.camera-header {
+  background-image: url(../images/hero-6.jpg); }
+
 footer {
   padding: 50px 0;
   position: relative; }
