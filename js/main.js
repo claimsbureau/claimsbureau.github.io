@@ -89,3 +89,21 @@ jQuery(document).ready(function($){
 	
 	}
 });
+
+/* Mobile navigation control */
+jQuery(document).ready(function($){
+	$('.mobile-menu-icon').click(function() {
+		$('nav ul').animate({'height':'toggle'}, 500);
+	});
+});
+
+
+
+
+
+
+
+
+
+
+

@@ -83,31 +83,68 @@ header {
     padding: 37px 0; }
     header nav ul {
       list-style: none; }
-      header nav ul li {
-        margin: 0 80px 0 0; }
-        @media (max-width: 1024px) {
-          header nav ul li {
-            float: none; } }
-        @media (min-width: 1025px) {
-          header nav ul li {
-            float: left; } }
-        header nav ul li a {
-          color: rgba(0, 0, 0, 0.57);
-          font-weight: 700;
-          text-transform: uppercase;
-          text-decoration: none; }
-        header nav ul li .claims-trac-link {
-          padding: 15px 20px;
-          font-size: 12px;
-          color: #FFFFFF;
-          font-weight: 600;
-          background-color: #37B24A;
-          text-decoration: none; }
-        header nav ul li .claims-trac-link:hover {
-          text-decoration: underline; }
+      @media (min-width: 1025px) {
+        header nav ul li {
+          float: left;
+          margin-bottom: 0; } }
+      header nav ul li a {
+        color: rgba(0, 0, 0, 0.57);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none; }
+      header nav ul li .claims-trac-link {
+        padding: 15px 20px;
+        font-size: 12px;
+        color: #FFFFFF;
+        font-weight: 600;
+        background-color: #37B24A;
+        text-decoration: none; }
+      header nav ul li .claims-trac-link:hover {
+        text-decoration: underline; }
       header nav ul li:last-child {
         margin-right: 0; }
+    header nav .mobile-menu-icon {
+      height: 30px;
+      width: 30px;
+      background-image: url(../images/menu-icon.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px 30px;
+      float: right;
+      cursor: pointer; }
 
+/* Break to mobile layout */
+@media screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+    position: fixed;
+    top: 133px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #F4F4F4;
+    z-index: 10; }
+    nav ul li {
+      padding: 20px 0;
+      margin-bottom: 0; }
+    nav ul li:last-child {
+      background-color: #37B24A; }
+  nav .mobile-menu-icon {
+    display: block; } }
+/* Hide mobile layout */
+@media screen and (min-width: 1025px) {
+  nav ul {
+    display: block !important; }
+  nav .mobile-menu-icon {
+    display: none; } }
+/* Spacing fix for tablets */
+@media screen and (min-width: 1025px) and (max-width: 1180px) {
+  nav ul li {
+    margin-right: 50px; } }
+/* Default spacing for desktop */
+@media screen and (min-width: 1181px) {
+  nav ul li {
+    margin-right: 80px; } }
 .page-header {
   width: 100%;
   background-color: #0050A1;
