@@ -77,7 +77,7 @@ header {
     height: 120px;
     position: absolute;
     top: -10px;
-    z-index: 100; }
+    z-index: 10000; }
   header nav {
     float: right;
     padding: 37px 0; }
@@ -115,15 +115,20 @@ header {
 
 /* Break to mobile layout */
 @media screen and (max-width: 1024px) {
+  header .container {
+    position: static; }
+    header .container .logo {
+      top: 20px; }
+
   nav ul {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 133px;
     left: 0;
     width: 100%;
     text-align: center;
     background: #F4F4F4;
-    z-index: 10; }
+    z-index: 1000; }
     nav ul li {
       padding: 20px 0;
       margin-bottom: 0; }
