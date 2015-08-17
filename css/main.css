@@ -159,21 +159,23 @@ header {
   position: relative; }
   .page-header h1 {
     margin: 0;
-    padding: 28px 0; }
+    padding: 28px 0;
+    z-index: 10;
+    position: relative; }
   .page-header .left-fade {
     position: absolute;
     width: 50%;
     height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(269deg, rgba(0, 80, 161, 0.1) 0%, rgba(0, 80, 161, 0.5) 18%, #0050A1 100%); }
+    background-image: linear-gradient(269deg, rgba(0, 80, 161, 0.5) 0%, rgba(0, 80, 161, 0.5) 18%, #0050A1 100%); }
   .page-header .right-fade {
     position: absolute;
     width: 50%;
     height: 100%;
     top: 0;
     right: 0;
-    background-image: linear-gradient(-269deg, rgba(0, 80, 161, 0.1) 0%, rgba(0, 80, 161, 0.5) 18%, #0050A1 100%); }
+    background-image: linear-gradient(-269deg, rgba(0, 80, 161, 0.5) 0%, rgba(0, 80, 161, 0.5) 18%, #0050A1 100%); }
 
 .services-header {
   background-image: url(../images/nationwide.jpg); }
@@ -293,12 +295,11 @@ section:nth-child(even) {
   padding: 30px;
   background-color: #ffffff;
   position: relative;
-  bottom: 150px;
+  bottom: 100px;
   min-height: 220px; }
   .card img {
     width: 25%;
-    float: left;
-    margin-right: 30px; }
+    float: left; }
   .card p {
     font-size: 12px; }
   .card a {
@@ -313,22 +314,23 @@ section:nth-child(even) {
   .card .right {
     width: 66%; }
 
+@media screen and (max-width: 550px) {
+  .card {
+    position: static; }
+
+  .card:last-child {
+    margin-bottom: 50px; } }
 .right {
   float: right; }
 
 .callout {
   width: 100%;
   background-color: #0050A1;
-  padding: 20px 0; }
+  padding: 40px 0; }
   .callout h3 {
     color: #FFFFFF;
-    display: inline-block;
-    margin: 0;
-    position: relative;
-    top: 14px;
-    float: left; }
+    margin: 0; }
   .callout a {
-    float: right;
     padding: 15px 20px;
     font-size: 16px;
     color: #FFFFFF;
@@ -344,6 +346,33 @@ section:nth-child(even) {
     .callout .center h3 {
       position: static;
       float: none; }
+  @media screen and (min-width: 1076px) {
+    .callout h3 {
+      display: inline-block;
+      margin: 0;
+      position: relative;
+      top: 14px;
+      float: left; }
+    .callout a {
+      float: right;
+      padding: 15px 20px;
+      font-size: 16px;
+      color: #FFFFFF;
+      font-weight: 400;
+      background-color: #37B24A;
+      margin-left: 20px;
+      text-decoration: none; } }
+  @media screen and (max-width: 1075px) {
+    .callout h3 {
+      text-align: center;
+      position: static;
+      float: none;
+      display: block;
+      margin: 0 0 20px 0; }
+    .callout a {
+      display: table;
+      margin: 0 auto;
+      float: none; } }
 
 .cd-hero {
   position: relative; }
