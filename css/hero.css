@@ -199,6 +199,10 @@ Slider
       float: left; }
     .cd-hero .hero-nav .next-arrow {
       float: right; }
+  @media screen and (max-width: 767px) {
+    .cd-hero .hero-nav {
+      padding: 0 2%;
+      top: 150px; } }
 
 .cd-hero-slider {
   position: relative;
@@ -278,9 +282,7 @@ Single slide style
     background-image: url("../images/hero-5.jpg"); }
   .cd-hero-slider li:nth-of-type(6) {
     background-color: #0050A1;
-    background-image: url("../images/hero-6.jpg");
-    background-size: 1280px;
-    background-position: center -30px; }
+    background-image: url("../images/hero-6.jpg"); }
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
     position: absolute;
