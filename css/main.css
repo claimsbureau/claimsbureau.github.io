@@ -237,6 +237,10 @@ ul {
     color: rgba(0, 0, 0, 0.57);
     line-height: 18px; }
 
+ol li {
+  color: rgba(0, 0, 0, 0.57);
+  line-height: 18px; }
+
 .styled-list {
   list-style: disc;
   padding-left: 40px; }

@@ -15,6 +15,13 @@ ul {
 	}
 }
 
+ol {
+	li {
+		color: $secondary-black;
+		line-height: 18px;	
+	}
+}
+
 .styled-list {
 	list-style: disc;
 	padding-left: 40px;	
